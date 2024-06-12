@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    box-sizing: border-box;
+    display: grid;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    place-self: center;
+    justify-content: center;
+    margin-top: 3vh;
+    row-gap: .7rem;
+}
+button{
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: gray;
+    color: white;
+    border-style: solid;
+}
+#nameplate{
+    margin: 0px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;    
+}
+#inp{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 125px;
+}
+
+
+/* rows */
+
+
+.firstrow{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.secondrow{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.thirdrow{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.fourthrow{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.fifthrow{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+
+
+/* buttons */
+
+
+#modulo{
+    padding-left: 2.3px;
+    padding-right: 2.3px;
+}
+#decimal{
+    padding-left: .38rem;
+    padding-right: .38rem;
+}
+#minus{
+    padding-left: .36rem;
+    padding-right: .36rem;
+}
+#multiply{
+    padding-left: .33rem;
+    padding-right: .33rem;
+}
+.mainkey{
+    padding-left: .27rem;
+    padding-right: .27rem;
+}
+#divide{
+    padding-left: .37rem;
+    padding-right: .37rem;
+}
